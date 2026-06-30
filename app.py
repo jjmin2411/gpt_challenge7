@@ -135,6 +135,7 @@ st.markdown(
 
 
 with st.sidebar:
+    st.link_button("GitHub Repository", "https://github.com/jjmin2411/gpt_challenge7")
     api_key = st.text_input("OpenAI API Key", type="password")
 
 url = "https://developers.cloudflare.com/sitemap-0.xml"
